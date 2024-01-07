@@ -1,4 +1,7 @@
+/* font merriweather */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+/* font inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +13,10 @@ body {
 }
 /* --------------------------------------------------------------------------------------------------- */
 
-/* banner */
+/*--------------------------- banner */
+header{
+  margin-bottom: 120px;
+}
 .banner {
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -18,10 +24,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin: 50px auto;
-  width: 1320px;
+
   height: 600px;
 }
-/* bannner-title */
+/* ------------------------- bannner-title */
 .banner-title {
   padding-top: 177px;
   max-width: 632px;
@@ -39,4 +45,38 @@ body {
   font-size: 72px;
   font-weight: 900;
 }
-/* -------------- */
+/* ------------------------- main section */
+/* --------------------------section 1 */
+.section-1{
+  margin-bottom: 120px;
+}
+.sec-1-title {
+  text-align: center;
+}
+.sec-1-title h1,
+p {
+  color: #f00;
+}
+.sec-1-title h1 {
+  font-size: 88px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.sec-1-title p {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.sec-1-title h2{
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 48px;
+}
+.newyear-photo{
+  text-align: center;
+}
+  /* --------------------------section 2 */
