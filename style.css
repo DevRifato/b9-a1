@@ -5,16 +5,19 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Merriweather", serif;
 }
 body {
+  font-family: "Merriweather", serif;
   width: 1320px;
   margin: auto;
+}
+span {
+  color: #f00;
 }
 /* --------------------------------------------------------------------------------------------------- */
 
 /*--------------------------- banner */
-header{
+header {
   margin-bottom: 120px;
 }
 .banner {
@@ -48,7 +51,7 @@ header{
 }
 /* ------------------------- main section */
 /* --------------------------section 1 */
-.section-1{
+.section-1 {
   margin-bottom: 120px;
 }
 .sec-1-title {
@@ -69,52 +72,80 @@ header{
   font-weight: 500;
   margin-bottom: 16px;
 }
-.sec-1-title h2{
+.sec-1-title h2 {
   font-size: 48px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   margin-bottom: 48px;
 }
-.newyear-photo{
+.newyear-photo {
   text-align: center;
 }
-  /* --------------------------section 2 */
-  .section-2{
-    display: flex;
-    align-items: center;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(./resources/Vectorrr.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 16px;
-    height: 600px;
+/* --------------------------section 2 */
+.section-2 {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(./resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  height: 600px;
+  margin-bottom: 120px;
+}
+.sec-2-title {
+  margin-left: 126px;
+}
+.sec-2-title h2 {
+  letter-spacing: 7.04px;
+  color: white;
+  font-size: 64px;
+  font-weight: 900;
+  width: 642px;
+  margin-bottom: 24px;
+}
+.sec-2-title p {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 48px;
+}
+.sec-2-title button {
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: 0;
+  background: none;
+}
 
-  }
-  .sec-2-title{
-    margin-left: 126px;
-  }
-  .sec-2-title h2{
-    letter-spacing: 7.04px;
-    color: white;
-    font-size: 64px;
-    font-weight: 900;
-    width: 642px;
-    margin-bottom: 24px;
-  }
-  .sec-2-title p{
-    width: 697px;
-    color: rgba(255, 255, 255, 0.80);
-    font-size: 18px;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-    margin-bottom: 48px;
-  }
-  .sec-2-title button{
-    font-family: "Inter", sans-serif;
-    text-transform: uppercase;
-    margin-left: 40px;
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-    border: 0;
-    background: none;
-  }
+/* --------------------------section 3 */
+.section-3{
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  border-radius: 16px;
+  height: 482px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-3-title{
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.sec-3-title button{
+  border: 0;
+  padding: 16px 32px;
+  color: white;
+  background-color: #f00;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 48px;
+}
