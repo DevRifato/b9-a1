@@ -159,6 +159,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 120px;
 }
 .title-1 h3 {
   font-family: "Inter", sans-serif;
@@ -197,4 +198,26 @@ header {
   font-weight: 400;
   width: 276px;
   margin-bottom: 16px;
+}
+
+/* --------------------------section 5 */
+.sec-5-title {
+  text-align: center;
+}
+.sec-5-title h3 {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.sec-5-title h2 {
+  font-size: 72px;
+  margin-bottom: 28px;
+  font-weight: 900;
+}
+.sec-5-title p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
 }
