@@ -201,6 +201,9 @@ header {
 }
 
 /* --------------------------section 5 */
+.section-5 {
+  margin-bottom: 120px;
+}
 .sec-5-title {
   text-align: center;
 }
@@ -220,4 +223,55 @@ header {
   font-size: 20px;
   font-weight: 500;
   font-family: "Inter", sans-serif;
+}
+
+/* --------------------------section 6 */
+/* --------------------------section 7 */
+/* --------------------------section 8 */
+.sec-8 {
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sec-8 img {
+  margin-bottom: 40px;
+}
+.sec-8-title h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.sec-8-title p {
+  color: rgba(7, 2, 17, 0.6);
+  width: 896px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.sec-8-input input {
+  color: rgba(7, 2, 17, 0.30);
+  border: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding: 24px 56px;
+  border-radius: 50px 0px 0px 50px;
+}
+.sec-8-input button {
+  position: relative;
+  left: -4px;
+  border: 0;
+  color: white;
+  background-color: #f00;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  padding: 24px 56px;
+  border-radius: 0px 50px 50px 0px;
 }
