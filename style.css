@@ -300,7 +300,7 @@ header {
 }
 /* --------------------------section 7 */
 /* --------------------------section 8 */
-.sec-8 {
+.sec-7 {
   margin-bottom: 120px;
   height: 616px;
   border-radius: 16px;
@@ -311,15 +311,15 @@ header {
   align-items: center;
   text-align: center;
 }
-.sec-8 img {
+.sec-7 img {
   margin-bottom: 40px;
 }
-.sec-8-title h2 {
+.sec-7-title h2 {
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 22px;
 }
-.sec-8-title p {
+.sec-7-title p {
   color: rgba(7, 2, 17, 0.6);
   width: 896px;
   font-family: "Inter", sans-serif;
@@ -327,7 +327,7 @@ header {
   font-weight: 400;
   margin-bottom: 48px;
 }
-.sec-8-input input {
+.sec-7-input input {
   color: rgba(7, 2, 17, 0.3);
   border: 0;
   font-size: 20px;
@@ -336,7 +336,7 @@ header {
   padding: 24px 56px;
   border-radius: 50px 0px 0px 50px;
 }
-.sec-8-input button {
+.sec-7-input button {
   position: relative;
   left: -4px;
   border: 0;
@@ -384,6 +384,9 @@ hr {
 .footer-social-icon {
   text-align: center;
   margin: 40px 0px 40px;
+}
+.footer-social-icon img{
+  margin-right: 24px;
 }
 .footer-title-2 {
   display: flex;
