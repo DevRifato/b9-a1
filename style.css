@@ -8,6 +8,8 @@
 }
 body {
   font-family: "Merriweather", serif;
+}
+main {
   width: 1320px;
   margin: auto;
 }
@@ -224,11 +226,73 @@ header {
   font-weight: 500;
   font-family: "Inter", sans-serif;
 }
-
+.sec-5-img-container {
+  background-image: url(./resources/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  top: -220px;
+}
+.sec-5-img-gift {
+  width: 600px;
+  position: relative;
+  top: 435px;
+  left: 30px;
+}
+.sec-5-img-person {
+  position: relative;
+  left: 891px;
+  bottom: 225px;
+}
+.sec-5-img-discount {
+  position: relative;
+  z-index: 1;
+  top: 158px;
+  right: -121px;
+}
 /* --------------------------section 6 */
+.sec-6{
+  margin-bottom: 120px;
+}
+.sec-6-title h3 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 16px;
+}
+.sec-6-title h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.sec-6-title p {
+  color: rgba(7, 2, 17, 0.6);
+  width: 896px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.sec-6-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.img-row-1{
+  display: flex;
+  gap: 24px;
+}
+.img-row-2{
+  display: flex;
+  gap: 24px;
+}
 /* --------------------------section 7 */
 /* --------------------------section 8 */
 .sec-8 {
+  margin-bottom: 120px;
   height: 616px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
@@ -255,7 +319,7 @@ header {
   margin-bottom: 48px;
 }
 .sec-8-input input {
-  color: rgba(7, 2, 17, 0.30);
+  color: rgba(7, 2, 17, 0.3);
   border: 0;
   font-size: 20px;
   font-weight: 400;
@@ -274,4 +338,47 @@ header {
   font-family: "Inter", sans-serif;
   padding: 24px 56px;
   border-radius: 0px 50px 50px 0px;
+}
+/* footer */
+footer {
+  color: white;
+  background-color: #070211;
+  height: 609px;
+  font-family: "Inter", sans-serif;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-container {
+  width: 1320px;
+  margin: auto;
+}
+.footer-title-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0px 50px 0px;
+}
+.footer-title-1 p {
+  width: 375px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer-title-1-icon a {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footer-social-icon {
+  text-align: center;
+  margin: 40px 0px 40px;
+}
+.footer-title-2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
 }
