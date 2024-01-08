@@ -85,19 +85,17 @@ header {
 }
 /* --------------------------section 2 */
 .section-2 {
-  display: flex;
-  align-items: center;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(./resources/Vectorrr.png);
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url(./resources/Vectorrr.png);
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   border-radius: 16px;
   height: 600px;
   margin-bottom: 120px;
 }
-.sec-2-title {
-  margin-left: 126px;
-}
+
 .sec-2-title h2 {
   letter-spacing: 7.04px;
   color: white;
@@ -251,7 +249,7 @@ header {
   right: -121px;
 }
 /* --------------------------section 6 */
-.sec-6{
+.sec-6 {
   margin-bottom: 120px;
 }
 .sec-6-title h3 {
@@ -274,20 +272,31 @@ header {
   font-weight: 400;
   margin-bottom: 48px;
 }
-.sec-6-img{
+.sec-6-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
-.img-row-1{
+.img-row-1 {
+  display: flex;
+  gap: 24px;
+  border-radius: 20px;
+}
+.img-row-1 img, .img-row-2 img{
+  border-radius: 20px;
+
+}
+.img-row-1 img:hover{
+  box-shadow: 10px 15px 20px #ff008cb0;
+}
+.img-row-2 {
   display: flex;
   gap: 24px;
 }
-.img-row-2{
-  display: flex;
-  gap: 24px;
+.img-row-2 img:hover{
+  box-shadow: 10px 15px 20px #ff008cb0;
 }
 /* --------------------------section 7 */
 /* --------------------------section 8 */
@@ -365,6 +374,7 @@ hr {
 }
 .footer-title-1-icon a {
   display: flex;
+  gap: 10px;
   align-items: center;
   color: white;
   font-size: 24px;
